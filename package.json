@@ -1,0 +1,22 @@
+{
+  "name": "moss",
+  "version": "1.0.0",
+  "description": "> 작업자동화 관리시스템",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "moss-cli": "node ./target/cli/index.js",
+    "mossd": "node ./target/mossd/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericlee05/moss.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericlee05/moss/issues"
+  },
+  "homepage": "https://github.com/ericlee05/moss#readme"
+}
